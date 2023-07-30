@@ -1,1 +1,95 @@
-{"name":"Antoine Beaudoux","headerTaglineOne":"Hi,","headerTaglineTwo":"I'm Beaudoux Antoine ","headerTaglineThree":"designer and developer junior","headerTaglineFour":" based in Biarritz, France.","showCursor":false,"showBlog":false,"darkMode":true,"showResume":false,"socials":[{"id":"1","title":"Github","link":"https://github.com/Tonio2023"},{"id":"2","title":"LinkedIn","link":"antoine-beaudoux-88447611b"},{"id":"5","title":"Email","link":"beaudouxantoine.dev@gmail.com"}],"projects":[{"id":"1","title":"Projet Portfolio Architecte d'Intérieur ","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Real Estate Rental Web Application ","description":"For this project, I developed a web application for real estate rentals using React. The application allows users to browse available properties, view property details.. ","imageSrc":"/images/projectKasa.png","url":"https://github.com/Tonio2023/Projet-Kasa.git"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"4","title":"Web development","description":"From the Front to the Back, we can built your site taking care of your preferences, wishes and the best technologies of the game."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}
+{
+    "name": "Antoine Beaudoux",
+    "headerTaglineOne": "Hi,",
+    "headerTaglineTwo": "I'm Beaudoux Antoine ",
+    "headerTaglineThree": "designer and developer",
+    "headerTaglineFour": " based in Biarritz, France.",
+    "showCursor": false,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": false,
+    "socials": [
+      {
+        "id": "1",
+        "title": "Github",
+        "link": "https://github.com/Tonio2023"
+      },
+      {
+        "id": "2",
+        "title": "LinkedIn",
+        "link": "https://www.linkedin.com/in/antoine-beaudoux-88447611b"
+      },
+      {
+        "id": "5",
+        "title": "beaudouxantoine.dev@gmail.com",
+        "link": "mailto:beaudouxantoine.dev@gmail.com"
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "title": "Portfolio Architecte d'Intérieur",
+        "description": "Élaboration d'un portfolio d'une architecte d'intérieur avec Javascript. Appels à l'API, manipulation du DOM, Gestion des évènements utilisateur, etc ...",
+        "imageSrc": "/images/Sophie.png",
+        "url": "https://github.com/Tonio2023/Projet-site-architecte-d-int-rieur-JS.git"
+      },
+      {
+        "id": "2",
+        "title": " Application Web de Location Immobilière",
+        "description": "Pour ce projet, j'ai développé une application web pour la location immobilière en utilisant React. Manipulation des composants React, des routes, hooks, etc ... ",
+        "imageSrc": "/images/projectKasa.png",
+        "url": "https://github.com/Tonio2023/Projet-Kasa.git"
+      },
+      {
+        "id": "3",
+        "title": "Débogage et optimisation d'un site de photographe",
+        "description": "Travail réalisé sur les performances de ce site, correction de bugs et optimisation du référencement afin d'améliorer la rapidité de chargement du site ainsi que sa visibilité.",
+        "imageSrc": "/images/Nina.png",
+        "url": "https://github.com/Tonio2023/Nina-Carducci-P5-fini.git"
+      },
+      {
+        "id": "4",
+        "title": "Développement du back-end d'un site de notation de livres",
+        "description": "Développement du back-end d'un site de notation de livres avec Node.js, Express et Mongodb.",
+        "imageSrc": "/images/grim.png",
+        "url": "https://github.com/Tonio2023/Projet-Backend-OP.git"
+      }
+    ],
+    "services": [
+      {
+        "id": "4",
+        "title": "Web development",
+        "description": "Du Front au Back, nous construisons votre site en tenant compte de vos préférences, souhaits ainsi que des meilleures technologies du Web."
+      }
+    ],
+    "aboutpara": "Sapeur-pompier de métier (dont 5 ans passés à Paris) depuis 18 ans, la reconversion dans le domaine du développement web m'est apparue comme une évidence ... Un nouvel environnement des technologies extrêmement vaste, stimulant en perpétuelle évolution. Compétences à la fois dans le Frontend et le Backend avec un supplément d'appétence pour le Front car j'apprécie les beaux rendus visuels. Je me tiens à votre disposition.",
+    "resume": {
+      "tagline": "👋  I'm a software engineer, product designer.",
+      "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+      "experiences": [
+        {
+          "id": "1",
+          "dates": "March 2022 - Present",
+          "type": "Full Time",
+          "position": "Frontend Engineer at X",
+          "bullets": "Bullet One, Bullet Two"
+        },
+        {
+          "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+          "dates": "July 2020 - March 2022",
+          "type": "Full Time",
+          "position": "Frontend Engineer at X",
+          "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        }
+      ],
+      "education": {
+        "universityName": "University X",
+        "universityDate": "2016-2020",
+        "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      }
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "AdobeXD", "AWS"]
+  }
+  

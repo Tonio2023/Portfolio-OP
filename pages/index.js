@@ -10,6 +10,8 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 
+import Image from "next/image";
+
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -62,37 +64,48 @@ export default function Home() {
           handleAboutScroll={handleAboutScroll}
         />
         <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
-            <h1
-              ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-            >
-              {data.headerTaglineOne}
-            </h1>
-            <h1
-              ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineTwo}
-            </h1>
-            <h1
-              ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
-            </h1>
-          </div>
+  <div className="w-full mt-5 flex flex-row sm:flex-col">
+    <div className="w-4/6">
+      <h1
+        ref={textOne}
+        className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+      >
+        {data.headerTaglineOne}
+      </h1>
+      <h1
+        ref={textTwo}
+        className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+      >
+        {data.headerTaglineTwo}
+      </h1>
+      <h1
+        ref={textThree}
+        className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+      >
+        {data.headerTaglineThree}
+      </h1>
+      <h1
+        ref={textFour}
+        className="text-3xl tablet:text-5xl laptop:text-5xl laptopl:text-5xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+      >
+        {data.headerTaglineFour}
+      </h1>
+    </div>
+    <div className="w-2/6 flex justify-end sm:justify-center items-center">
+      <Image
+        src="/images/AntoineDev.jpg"
+        alt="photo du développeur du site"
+        width={330}
+        height={330}
+        className="rounded-full"
+      />
+    </div>
+  </div>
+  <Socials className="mt-2 laptop:mt-5" />
+</div>
 
-          <Socials className="mt-2 laptop:mt-5" />
-        </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
+          <h1 className="text-2xl text-bold text-center">Work.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
@@ -107,9 +120,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+        <div className="mt-40 laptop:mt-30 p-2 laptop:p-0 flex-col items-center justify-center">
+          <h1 className="tablet:text-2xl text-bold text-center">Services.</h1>
+          <div className="mt-10 flex text-center grid-cols-1 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -119,6 +132,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+
         {/* This button should not go into production */}
         {process.env.NODE_ENV === "development" && (
           <div className="fixed bottom-5 right-5">
@@ -127,12 +141,13 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {data.aboutpara}
-          </p>
-        </div>
+         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0 flex flex-col items-center justify-center" ref={aboutRef}>
+           <h1 className="tablet:text-2xl text-bold text-center">About.</h1>
+           <p className="mt-10 text-xl laptop:text-2xl w-full laptop:w-3/5 text-center">
+             {data.aboutpara}
+           </p>
+         </div>
+
         <Footer />
       </div>
     </div>
