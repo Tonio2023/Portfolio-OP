@@ -93,7 +93,7 @@ export default function Home() {
     </div>
     <div className="w-2/6 flex justify-end sm:justify-center items-center">
       <Image
-        src="/images/AntoineDev.jpg"
+        src="/images/AntoineDev.webp"
         alt="photo du développeur du site"
         width={330}
         height={330}
