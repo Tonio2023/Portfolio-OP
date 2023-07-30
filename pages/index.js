@@ -93,7 +93,6 @@ export default function Home() {
               </h1>
             </div>
             <div className="w-2/6 flex justify-end sm:justify-center items-center">
-            <div className="image-container rounded-full">
               <Image
                 src={
                   theme === "dark"
@@ -105,7 +104,6 @@ export default function Home() {
                 height={330}
                 className="rounded-full"
               />
-            </div>
           </div>
           </div>
           <Socials className="mt-2 laptop:mt-5" />
