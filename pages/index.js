@@ -64,7 +64,7 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
+        <div className="laptop:mt-20 mt-10 sm:pl-10 md:pl-0">
           <div className="w-full mt-5 flex flex-row sm:flex-col">
             <div className="w-4/6">
               <h1
