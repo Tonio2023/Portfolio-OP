@@ -30,28 +30,28 @@
         "id": "1",
         "title": "Portfolio Architecte d'Intérieur",
         "description": "Élaboration d'un portfolio d'une architecte d'intérieur avec Javascript. Appels à l'API, manipulation du DOM, Gestion des évènements utilisateur, etc ...",
-        "imageSrc": "/images/Sophie.png",
+        "imageSrc": "/images/Sophie.webp",
         "url": "https://github.com/Tonio2023/Projet-site-architecte-d-int-rieur-JS.git"
       },
       {
         "id": "2",
         "title": " Application Web de Location Immobilière",
         "description": "Pour ce projet, j'ai développé une application web pour la location immobilière en utilisant React. Manipulation des composants React, des routes, hooks, etc ... ",
-        "imageSrc": "/images/projectKasa.png",
+        "imageSrc": "/images/projectKasa.webp",
         "url": "https://github.com/Tonio2023/Projet-Kasa.git"
       },
       {
         "id": "3",
         "title": "Débogage et optimisation d'un site de photographe",
         "description": "Travail réalisé sur les performances de ce site, correction de bugs et optimisation du référencement afin d'améliorer la rapidité de chargement du site ainsi que sa visibilité.",
-        "imageSrc": "/images/Nina.png",
+        "imageSrc": "/images/Nina.webp",
         "url": "https://github.com/Tonio2023/Nina-Carducci-P5-fini.git"
       },
       {
         "id": "4",
         "title": "Développement du back-end d'un site de notation de livres",
         "description": "Développement du back-end d'un site de notation de livres avec Node.js, Express et Mongodb.",
-        "imageSrc": "/images/grim.png",
+        "imageSrc": "/images/grim.webp",
         "url": "https://github.com/Tonio2023/Projet-Backend-OP.git"
       }
     ],
